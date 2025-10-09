@@ -40,13 +40,13 @@ SDK and NDK parts, gradle will install everything else for you if you accept the
 
 and accept the licenses. If you don't have an NDK, run
 
-    ${ANDROID_SDK_ROOT}/tools/bin/sdkmanager ndk-bundle
+    ${ANDROID_SDK_ROOT}/tools/bin/sdkmanager ndk:[version]
 
 This will download the latest NDK and put it into `${ANDROID_SDK_ROOT}/ndk-bundle`.
 
 Then, download the project and its submodules:
 
-    $ git clone --recursive https://github.com/sfalexrog/Imgui_Android
+    $ git clone --recursive https://github.com/alexdvn/Imgui_Android
 
 (or do `git submodule update --init --recursive` after cloning if your Git client does not support the `--recursive` option)
 
