@@ -2,7 +2,8 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 35
-    buildToolsVersion "30.0.0"
+    buildToolsVersion "35.0.0"
+    ndkVersion "27.1.12297006"
     defaultConfig {
         applicationId "me.sfalexrog.imguidemo"
         minSdkVersion 18
