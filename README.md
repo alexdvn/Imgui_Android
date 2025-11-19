@@ -33,7 +33,7 @@ tell me why if it isn't!), but it seems to work.
 
 ### Android
 
-You'll need OpenJDK 1.8, Android SDK, NDK, and Android-specific cmake in order to build this demo. Good thing is, you only really need the
+You'll need OpenJDK 17 or 21, Android SDK, NDK, and Android-specific cmake in order to build this demo. Good thing is, you only really need the
 SDK and NDK parts, gradle will install everything else for you if you accept the licenses. In order to accept the licenses, run
 
     ${ANDROID_SDK_ROOT}/tools/bin/sdkmanager --licenses
